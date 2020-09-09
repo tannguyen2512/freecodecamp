@@ -1,0 +1,69 @@
+<style>
+    #title {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 0 0 0 auto;
+    }
+    #title h1, p {
+        margin: 0 0 0 0;
+    }
+    
+    body {
+        display: flex;
+    }
+    #img-div {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        background-color: lightgray;
+        justify-content: center;
+    }
+    
+    #image {
+        max-width: 100%;
+    }
+    #image div {
+        background-color: greenyellow;
+    }
+    
+    #img-caption {
+        background-color: yellow;
+    }
+
+    #tribute-info {
+        background-color: lightgray;
+    }
+    
+    #tribute-link:hover {
+        color: red;
+        font-size: 1.1em;
+    }
+</style>
+<main id="main">
+    <header id="title">
+        <h1> A tribute page to Simon Sinek </h1>
+        <p> One of my favorite author. The one who inspire people to do what inspires them</p>
+    </header>
+    <hr>
+    <body>
+        <figure id="img-div">
+            <img id="image" src="https://media.npr.org/assets/img/2018/05/17/simonsinek_2009x-embed_wide-d896a139735602f9e876f2de6f95595e66bf0576.jpg?s=1400">
+            <figcaption id="img-caption"> Simon Sinek on his infamous TED's talk, presenting the idea of "Start with WHY"</figcaption>
+        </figure>
+
+        <section id="tribute-info">
+            <h3> Here are Simon's Books: </h3>
+            <ul>
+                <li> Sinek, Simon (2009). <em><strong>Start With Why: How Great Leaders Inspire Everyone to Take Action</strong></em>. New York: Portfolio/Penguin. ISBN 978-1591846444. OCLC 373054685. </li>
+                <li> Sinek, Simon (2014). <em><strong>Leaders Eat Last: Why Some Teams Pull Together and Others Don't</strong></em>. New York: Portfolio/Penguin. ISBN 978-1591845324. OCLC 818731578. </li>
+                <li> Sinek, Simon (2016). <em><strong>Together Is Better: A Little Book of Inspiration</strong></em>. New York: Portfolio/Penguin. ISBN 978-1591847854. OCLC 957455007.[16] </li>
+                <li> Sinek, Simon (2017). <em><strong>Find Your Why: A Practical Guide for Discovering Purpose for You and Your Team</strong></em>. New York: Portfolio/Penguin. ISBN 9781101992982. OCLC 963912431. </li>
+                <li> Sinek, Simon (2019). <em><strong>The Infinite Game</strong></em>. New York: Portfolio/Penguin. ISBN 9780735213500. OCLC 1101645201. </li>
+            </ul>
+        </section>
+        <section>
+            <strong> Find out more about Simon and his work on <a id="tribute-link" target="_blank" href="https://simonsinek.com/">simonsinek.com</a> </strong>
+        </section>
+    </body>
+</main>
